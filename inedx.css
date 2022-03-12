@@ -1,0 +1,160 @@
+#navbar{
+    position: fixed;
+    min-width: 99%;
+    top: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS';
+    background: rgb(0, 0, 0);
+  }
+
+body{
+  background: rgb(24,5,0);
+  background: radial-gradient(circle, rgba(24,5,0,1) 0%, rgba(113,0,66,1) 20%, rgba(255,0,89,1) 49%, rgba(0,0,0,1) 95%);
+}
+
+#welcome-section{
+ margin-top: 8em;
+ background-color: rgba(0, 255, 255, 0.301);
+ color: rgb(0, 0, 0);
+ border-radius: 20px;
+ max-width: 90%;
+ min-height:100vh;
+ text-align: center;
+ font-family:Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.h1{
+
+ margin-top: 10px;
+ padding: 10px;
+
+}
+
+#h1{
+  padding-left:3px;
+  display: flex;
+  justify-content: right;
+  background-color: rgb(231, 231, 231);
+  max-width: 5em;
+  margin-left: 87%;
+  border-radius: 10px;
+}
+
+#h1:hover{
+  padding-left:3px;
+  display: flex;
+  justify-content: right;
+  background-color: rgb(255, 255, 255);
+  max-width: 5em;
+  margin-left: 87%;
+  border-radius: 10px;
+  
+}
+
+#profile-link{
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  
+}
+
+
+
+#sex{
+
+margin-right: -1em;
+
+}
+
+#welcome-image{
+
+margin-bottom: 10px;
+border-radius: 10px;
+max-width: 80vh;
+max-height: 80vh;
+
+}
+
+#shift{
+  padding-right: 40vh;
+  font-size: 42px;
+  color: wheat;
+}
+
+#page-link{
+ padding-top: 3vh;
+ padding-right: 10vh;
+}
+
+#prolink{
+
+  padding: 20px;
+  color: rgb(158, 158, 158);
+  background-color: rgb(63, 63, 63);
+  border-radius: 10px;
+
+}
+
+#prolink:hover{
+
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(175, 175, 175);
+  border-radius: 10px;
+
+}
+
+#projects{
+
+border-radius: 10px;
+background-color: rgba(255, 0, 0, 0.171);
+margin-top: 10em;
+margin-bottom: 6em;
+display: flex;
+
+}
+
+.project-tile{
+
+ margin-left: 5vh;
+
+
+}
+
+.project-tile:hover{
+
+  margin-left: 5vh;
+  background-color: aliceblue;
+  border-radius: 10px;
+  
+  
+ }
+
+#project-tile{
+
+ margin-left: 14vh;
+ padding-bottom: 20px;
+
+
+}
+
+.projectimg{
+
+  max-width: 20em;
+  max-height: 20em;
+
+}
+
+.aimg{
+
+  padding-top: 18.3em;
+  position: relative;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-bottom: 1.3em;
+
+}
